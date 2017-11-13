@@ -1,0 +1,17 @@
+[input file]
+
+data format of 'query_url.lnk':
+[query]\t[url]\t[click_count]\t[url_rank]
+
+data format of 'seed.txt':
+[spam_url_id]\blank[spam_url]
+
+
+
+[output file]
+
+data format of 'query_url_mode_sorted_query.lnk' and 'query_url_mode_sorted_url.lnk':
+[query_id]\blank[url_id]\blank[weight_considered_position_bias]
+
+data format of 'result_mode/seed_round.txt:
+[spam_score]\t[url_id]
